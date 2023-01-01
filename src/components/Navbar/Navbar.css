@@ -1,0 +1,29 @@
+i {
+  color: #777;
+  font-size: 24px;
+  opacity: 0.7;
+}
+a i:hover {
+  color: #08fdd8;
+  opacity: 1;
+}
+
+a i:active {
+  color: #08fdd8;
+  opacity: 1;
+}
+
+.justify-self-end {
+  justify-self: end !important;
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  nav .align-items-center {
+    justify-content: start !important;
+  }
+
+  nav i {
+    font-size: 15px;
+  }
+}

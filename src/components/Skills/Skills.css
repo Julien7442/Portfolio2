@@ -1,0 +1,46 @@
+hr {
+  width: 40px;
+  background: #08fdd8;
+}
+
+td {
+  position: relative;
+  padding-left: 30px !important;
+}
+
+td::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 10px !important;
+  width: 15px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 1225px) {
+  td::before {
+    display: none;
+  }
+
+  td {
+    padding-left: 10px !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .App-logo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+}
