@@ -94,22 +94,14 @@ class Navbar extends Component {
               className="fas fa-flask"
             />
           </Link>
-          <Link className="mt-4" to="/contact">
-            <i
-              onClick={this.onNavClick}
-              style={this.state.contact ? { color: "#08fdd8" } : null}
-              customattribute="contact"
-              className="far fa-envelope"
-            />
-          </Link>
 
-          <a className="mt-auto" href="https://www.linkedin.com/in/s-haynes">
+          <a className="mt-auto" href="https://www.linkedin.com/in/julien-conforto-59b621184/">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a className="mt-4" href="https://www.codepen.io/s-haynes">
-            <i className="fab fa-codepen" />
+          <a className="mt-4" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbprRHgWJLcTXdscmpKQxHlkGGsRssBLvcBrQcdPlnSLxnkVQHrbwcFRPvnpXsXjzQQq">
+            <i className="far fa-envelope" />
           </a>
-          <a className="mt-4" href="https://www.github.com/s-haynes">
+          <a className="mt-4" href="https://github.com/Julien7442">
             <i className="fab fa-github" />
           </a>
         </div>

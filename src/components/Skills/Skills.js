@@ -102,7 +102,7 @@ class Skills extends Component {
                           <td>JavaScript (ES6)</td>
                           <td>OOP, Functional</td>
                           <td>React, jQuery</td>
-                          <td>Gulp</td>
+                          <td>Spline</td>
                         </tr>
                       </tbody>
                     </Table>

@@ -49,11 +49,7 @@ Whenever possible, I also spend my time to improve my knowledge about React, Jav
                   </p>
                 </Col>
                 <Col xs="12">
-                  <CardImg
-                    className="animated flipInY delay-1s"
-                    src={Timeline}
-                    alt="timeline"
-                  />
+          
                 </Col>
               </Row>
             </Container>

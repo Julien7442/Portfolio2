@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -86,7 +85,6 @@ class App extends Component {
           <div className="App">
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/contact" exact component={Contact} />
               <Route path="/about" exact component={About} />
               <Route path="/skills" exact component={Skills} />
               <Route path="/work" exact component={Work} />
