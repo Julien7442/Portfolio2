@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Single Page Apps for GitHub Pages</title>
+    <!-- Ce script effectue une redirection vers une URL modifiée, en conservant seulement un certain nombre de segments de chemin dans l'URL d'origine et en remplaçant certains caractères spéciaux -->
+    <script type="text/javascript">
+      // Nombre de segments de chemin à conserver dans l'URL d'origine
+      var pathSegmentsToKeep = 0;
+
+      // Récupère l'URL actuelle
+      var l = window.location;
+
+      // Remplace l'URL actuelle par une URL modifiée qui conserve seulement un certain nombre de segments de chemin et remplace certains caractères spéciaux
+      l.replace(
+        l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          // Conserve seulement un certain nombre de segments de chemin de l'URL d'origine
+          l.pathname
+            .split('/')
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join('/') +
+          '/?/' +
+          // Conserve les segments de chemin restants de l'URL d'origine et remplace certains caractères spéciaux
+          l.pathname
+            .slice(1)
+            .split('/')
+            .slice(pathSegmentsToKeep)
+            .join('/')
+            .replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
