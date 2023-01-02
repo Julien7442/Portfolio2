@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Loading from "../Loading/Loading";
-import Image1 from "../../assets/img/experiment1.png";
-import Image2 from "../../assets/img/experiment2.png";
-import Image3 from "../../assets/img/experiment3.png";
-import Image4 from "../../assets/img/experiment4.png";
-import Image5 from "../../assets/img/experiment5.png";
+import Image1 from "../../assets/img/experiment1.jpg";
+import Image2 from "../../assets/img/experiment2.jpg";
+import Image3 from "../../assets/img/experiment3.jpg";
+import Image4 from "../../assets/img/experiment4.jpg";
+import Image5 from "../../assets/img/experiment5.jpg";
 import Image6 from "../../assets/img/experiment6.png";
 import Image7 from "../../assets/img/experiment7.png";
 import Image8 from "../../assets/img/experiment8.png";
@@ -61,23 +61,23 @@ class Experiments extends Component {
                   xs="12"
                 >
                   <ExperimentContainer>
-                    <ExperimentItem link="https://pvn.surge.sh" img={Image1} />
+                    <ExperimentItem link="https://portfolioexamplejc.netlify.app" img={Image1} />
                     <ExperimentItem
-                      link="https://codepen.io/s-haynes/full/rvLEwa"
+                      link="https://bankmodernn.netlify.app/"
                       img={Image2}
                     />
                     <ExperimentItem
-                      link="https://codepen.io/s-haynes/full/RJopLN"
+                      link="https://uniswap-clone-jc.netlify.app/"
                       img={Image3}
                     />
                     <ExperimentItem
-                      link="https://codepen.io/s-haynes/full/BxowOM"
+                      link="https://robopunkjc.netlify.app/"
                       img={Image4}
                     />
                   </ExperimentContainer>
                   <ExperimentContainer>
                     <ExperimentItem
-                      link="https://codepen.io/s-haynes/full/XqKvNg"
+                      link="https://julienc.netlify.app/"
                       img={Image5}
                     />
                     <ExperimentItem
