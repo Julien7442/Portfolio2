@@ -39,7 +39,7 @@ class Skills extends Component {
                   <p>
                     I am well-versed in HTML, CSS and JS. I primarily build
                     small to medium web apps with React or vanilla JS, designing
-                    interactive layouts and working with different API's.
+                    interactive layouts and working with different API's. I'm also developing my web3 skills by learning Solidity.
                   </p>
                   <p>
                     Here is a selection of relevant technologies that I am

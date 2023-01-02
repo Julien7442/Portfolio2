@@ -35,9 +35,9 @@ class Home extends Component {
                     Modern UI/UX / React Developer{" "}
                   </h6>
                   <div className="mt-4">
-                    <Link to="/contact">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbprRHgWJLcTXdscmpKQxHlkGGsRssBLvcBrQcdPlnSLxnkVQHrbwcFRPvnpXsXjzQQq">
                       <Button text="CONTACT ME" />
-                    </Link>
+                    </a>
                   </div>
                 </Col>
                 <Col className="brandlogo" sm="12" md="4">

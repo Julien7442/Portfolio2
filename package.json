@@ -6,6 +6,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "gasp": "^0.0.2",
+    "hover-effect": "^1.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.8.4",
@@ -13,7 +15,8 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8",
     "react-spinners": "^0.5.3",
-    "reactstrap": "^7.1.0"
+    "reactstrap": "^7.1.0",
+    "three": "^0.148.0"
   },
   "scripts": {
     "start": "react-scripts start",

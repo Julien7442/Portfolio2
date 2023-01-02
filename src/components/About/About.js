@@ -3,6 +3,7 @@ import { Container, Row, Col, CardImg } from "reactstrap";
 import Timeline from "../../assets/img/timeline.png";
 import { Link } from "react-router-dom";
 import Loading from "../Loading/Loading";
+import ImageHoverEffect from "../CardEffect/CardEffect";
 
 class About extends Component {
   state = {
@@ -15,7 +16,7 @@ class About extends Component {
         this.setState({
           content: (
             <Container
-              className="d-flex align-items-center"
+              className="d-flex flex-column align-items-center"
               style={{ height: "100%", width: "100%" }}
             >
               <Row>
@@ -52,6 +53,14 @@ Whenever possible, I also spend my time to improve my knowledge about React, Jav
           
                 </Col>
               </Row>
+              
+              <Col xs="12">
+               
+                <ImageHoverEffect />
+            
+                </Col>
+                
+
             </Container>
           )
         }),
