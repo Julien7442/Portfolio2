@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, CardImg } from "reactstrap";
-import Timeline from "../../assets/img/timeline.png";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import ImageHoverEffect from "../CardEffect/CardEffect";

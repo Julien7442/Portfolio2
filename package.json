@@ -1,5 +1,4 @@
 {
-  "homepage": "https://www.julienconforto.dev/",
   "name": "portfolio_v2",
   "version": "0.1.0",
   "private": true,
@@ -11,10 +10,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.8.4",
-    "react-particles-js": "^2.7.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "^2.1.8",
     "react-spinners": "^0.5.3",
+    "react-tsparticles": "^2.7.1",
     "reactstrap": "^7.1.0",
     "three": "^0.148.0"
   },
@@ -36,6 +35,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }

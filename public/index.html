@@ -20,28 +20,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
-     <!-- Ce script effectue une redirection vers une URL modifiée, en remplaçant l'URL d'origine avec le premier segment de chemin modifié -->
-     <script type="text/javascript">
-      (function (l) {
-        // Si le premier segment de chemin de l'URL d'origine est '/', remplace l'URL actuelle par une URL modifiée
-        if (l.search[1] === '/') {
-          // Décode les segments de chemin de l'URL d'origine et les remplace dans l'URL modifiée
-          var decoded = l.search
-            .slice(1)
-            .split('&')
-            .map(function (s) {
-              return s.replace(/~and~/g, '&');
-            })
-            .join('?');
-          // Remplace l'URL actuelle par l'URL modifiée
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      })(window.location);
-    </script>
     <title>Julien Conforto</title>
   </head>
   <body>

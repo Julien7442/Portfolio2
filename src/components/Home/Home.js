@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, CardImg } from "reactstrap";
 import BrandLogo from "../../assets/img/logo.png";
-import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import Loading from "../Loading/Loading";
 import "./Home.css";
