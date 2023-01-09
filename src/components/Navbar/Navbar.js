@@ -98,7 +98,7 @@ class Navbar extends Component {
           <a className="mt-auto" href="https://www.linkedin.com/in/julien-conforto-59b621184/">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a className="mt-4" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbprRHgWJLcTXdscmpKQxHlkGGsRssBLvcBrQcdPlnSLxnkVQHrbwcFRPvnpXsXjzQQq">
+          <a className="mt-4" href="mailto:julien.confort@gmail.com">
             <i className="far fa-envelope" />
           </a>
           <a className="mt-4" href="https://github.com/Julien7442">
